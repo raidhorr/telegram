@@ -49,4 +49,5 @@ def convert(message):
     else:
         bot.reply_to(message, f'ЦЕНА за {amount} {base} {sm:.2f} {quote}')
 
+
 bot.polling(none_stop=True)

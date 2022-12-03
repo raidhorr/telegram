@@ -4,6 +4,7 @@ import requests
 class APIException(Exception):
     pass
 
+
 class Currency:
     def __init__(self, url):
         self.rates = requests.get(url).json()
